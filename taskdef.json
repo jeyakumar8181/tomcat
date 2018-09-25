@@ -2,7 +2,7 @@
 	"containerDefinitions": [{
 		"essential": true,
 		"name": "tomcat",
-		"image": "466749146115.dkr.ecr.ap-south-1.amazonaws.com/test:latest",
+		"image": "466749146115.dkr.ecr.ap-south-1.amazonaws.com/tomcat:v1",
 		"memory": 2048,
 		"cpu": 1024,
 		"portMappings": [{
@@ -12,7 +12,7 @@
 		}]
 	}],
 
-	"family": "test",
-	"taskRoleArn": "arn:aws:iam::466749146115:role/ECSEC2JensinsRole"
+	"family": "tomcat",
+	"taskRoleArn": "arn:aws:iam::466749146115:role/Prem-role"
   
  }
